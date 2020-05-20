@@ -1,11 +1,17 @@
 # Plot.ly Homework - Belly Button Biodiversity
 
-![Bacteria by filterforge.com](Images/bacteria.png)
+![Bacteria](Images/bacteria.png)
 
 This project builds an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
 
+The dashboard plots the data using plotly, d3 and javascript.
+
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
+## This Repository
+* Code directory contains all the code including `index.html`
+* Images Directory contains images used in this readme 
+* This README FILE 
 ## Step 1: Plotly
 
 1. D3 library is used to read in `samples.json`.
@@ -64,10 +70,16 @@ The following task is advanced and therefore optional.
 
 ## Deployment
 
-The app was deployed to a free static page hosting service GitHub Pages.
+The app was deployed to a free static page hosting service - GitHub Pages. [http://annmcnamara.github.io/dashboard/Code/index.html](http://annmcnamara.github.io/dashboard/Code/index.html).
 
+## Analysis.
+Examining all the factors including age, sex, ethnicity, innie vs outie, and frequency of washing – there appear to be no differences in the number and kinds of bacteria  found in a particular person.
+
+This is an area of ongoing research...
 
 ### Data Source
+
+The data used in this project can be found here: 
 
 Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
 
